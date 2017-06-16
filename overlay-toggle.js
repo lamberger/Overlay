@@ -2,9 +2,9 @@ $(function() {
 
    var docHeight = $(document).height();
 
-   $("body").append("<div id='overlay'><h1 style='font-size:72px; text-align: center;'>OVERLAY</div></h1>");
+   $('body').append("<div id='overlay'><h1 style='font-size:72px; text-align: center;'>OVERLAY</div></h1>");
 
-   $("#overlay")
+   $('#overlay')
       .height(docHeight)
       .css({
          'opacity' : 0.5,
